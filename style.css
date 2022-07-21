@@ -86,7 +86,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
-.player-blog{
+
+.player-blog {
     border: 1px solid gray;
     border-radius: 10px;
 }
@@ -194,4 +195,21 @@ nav li a {
     font-weight: 600;
     font-size: 16px;
     color: #fff;
+}
+
+@media screen and (max-width:688px) {
+    .banner {
+        width: 100%;
+        display: block;
+        padding: 1px 2px;
+        align-items: center;
+        justify-content: center;
+    }
+   .banner-content h1 {
+        font-size: 15px;
+        padding: 0px 10px;
+    
+    }
+    .banner-content img {}
+
 }
