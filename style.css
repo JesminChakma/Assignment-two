@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding: 40px 68px;
+}
+.banner {
+    display: flex;
+    background: #161616;
+    border-radius: 30px;
+    padding: 50px 70px;
+}
+.the{
+    margin-top:20px;
+}
+.the, .image-banner{
+    width: 50%;
+}
+.the h1{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-top: 80px;
+}
+.the p{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.button-1{
+    background-color: red;
+    padding: 20px 25px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.image-banner img{
+    width: 100%;
+    position: relative;
+    top: 57px;
+}
+
+.menu-section {
+    display: flex;
+    gap: 25px;
+    padding: 46px 0px;
+}
+.aside-part{
+
+}
+.linking {
+    background: black;
+
+}
+.aside-btn{
+    color: #000;
+    background-color: #fff;
+    padding: 7px 25px;
+}
+
+.right-part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.player{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.player-img{
+
+}
+.player-img img{
+    width: 100%;
+}
+
+.content{
+    padding: 20px;
+}
+
+.transfer-btn{
+
+}
+
+.icon-part {
+    display: flex;
+    padding: 10px 0px;
+    gap: 20px;
+}
+
+.side-part{
+    max-width: 50%;
+}
+
+.linking {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.side-btn{
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#red{
+    background-color: red;
+    border: 1px solid red;
+    color: #fff;
+}
+.player-img {
+    display: flex;
+    padding: 22px 15px;
+}
+
+footer{
+    background: black;
+    padding: 50px;
+}
+
+footer h1{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+hr{
+    width: 80%;
+    margin: 0px auto;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 35px 0px 0px 29px;
+}
+
+nav li a{
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
